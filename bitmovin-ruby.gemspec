@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'bitmovin/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "bitmovin-ruby"
+  spec.name          = "vualto-bitmovin-ruby"
   spec.version       = Bitmovin::VERSION
-  spec.authors       = ["Daniel Hoelbling-Inzko"]
-  spec.email         = ["daniel.hoelbling-inzko@bitmovin.com"]
+  spec.authors       = ["Daniel Hoelbling-Inzko", "Jonathan Mallett (Vualto)"]
+  spec.email         = ["daniel.hoelbling-inzko@bitmovin.com", "jonathan.mallett@vualto.com"]
 
   spec.summary       = %q{Api Client for the Bitmovin API}
   spec.description   = %q{Provides full access to the Bitmovin API (http://https://bitmovin.com/encoding-documentation/bitmovin-api/)}
-  spec.homepage      = "https://github.com/bitmovin/bitmovin-ruby"
+  spec.homepage      = "https://github.com/jonmallVu/bitmovin-ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|

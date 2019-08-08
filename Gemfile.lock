@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bitmovin-ruby (0.8.0)
+    vualto-bitmovin-ruby (0.8.1)
       activesupport (>= 4.0.0)
       faraday (~> 0.11.0)
       faraday_middleware (~> 0.11.0)
@@ -111,7 +111,6 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport (= 4.2.0)
-  bitmovin-ruby!
   bundler (~> 1.13)
   codecov
   guard-rspec
@@ -120,7 +119,8 @@ DEPENDENCIES
   rspec (~> 3.0)
   rspec-collection_matchers
   simplecov
+  vualto-bitmovin-ruby!
   webmock
 
 BUNDLED WITH
-   1.15.1
+   1.17.3
